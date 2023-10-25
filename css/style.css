@@ -33,7 +33,7 @@ main .sidebar {
 
   height: 100%;
   background-image: url(../img/sidebar-bg.png);
-  background-size: cover;
+  background-size: auto;
 }
 
 main .page-corp {
