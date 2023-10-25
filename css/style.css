@@ -1,1 +1,50 @@
 @import url('_partials/variables.css');
+
+/* ****** header ****** */
+header {
+  height: 70px;
+}
+
+/* ****** /header****** */
+
+/* ******main****** */
+
+/* *debug* */
+.debug .container {
+  background-color: red;
+}
+
+.debug .sidebar {
+  background-color: blue;
+}
+
+.debug .page-corp {
+  background-color: orange;
+}
+
+main .container {
+  height: calc(100vh - 70px);
+}
+
+/* * /debug* */
+
+main .sidebar {
+  width: 70px;
+
+  height: 100%;
+  background-image: url(../img/sidebar-bg.png);
+  background-size: cover;
+}
+
+main .page-corp {
+  width: calc(100% - 70px);
+  height: 100%;
+}
+
+/* /main */
+
+@media screen and (min-width: 960px) {
+  main .sidebar {
+    width: 150px;
+  }
+}
