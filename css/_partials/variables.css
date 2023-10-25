@@ -1,0 +1,14 @@
+.ag-bg-lightgrey {
+  --ag-bg-lightgrey: #e5e5e5;
+  background-color: var(--ag-bg-lightgrey);
+}
+
+.ag-txt-grey {
+  --ag-txt-grey: #5b5858;
+  color: var(--ag-txt-grey);
+}
+
+.ag-txt-orange {
+  --ag-txt-orange: #ff8f00;
+  color: var(--ag-txt-orange);
+}

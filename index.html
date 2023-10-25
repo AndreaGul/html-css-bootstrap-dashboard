@@ -35,8 +35,8 @@
               <img
                 src="img/mobile-logo.png"
                 alt="Logo"
-                width="30"
-                height="30"
+                width="50"
+                height="50"
               />
             </a>
 
@@ -46,18 +46,33 @@
           </div>
           <form class="d-flex flex-grow-1 form-floating" role="search">
             <input
-              class="form-control me-2"
+              class="form-control me-2 ag-bg-lightgrey"
               type="search"
               placeholder="form-search"
               id="form-search"
             />
-            <label
-              for="form-search"
-              class="text-secondary-emphasis fw-semibold opacity-75"
-              ><i class="fa-solid fa-magnifying-glass opacity-100"></i> Prova a
-              cercare: Lezioni di Laravel</label
+            <label for="form-search" class="text-secondary-emphasis fw-semibold"
+              ><i class="fa-solid fa-magnifying-glass"></i>
+              <span class="opacity-75"
+                >Prova a cercare: Lezioni di Laravel
+              </span></label
             >
           </form>
+
+          <div class="row mx-2 d-none d-lg-flex ag-txt-grey">
+            <div class="col-lg-4">
+              <i class="fa-solid fa-list-ul"></i>
+            </div>
+            <div class="col-lg-4">
+              <i class="fa-solid fa-circle-question"></i>
+            </div>
+            <div class="col-lg-4">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          <div class="ms-4 ms-lg-0">
+            <i class="fa-solid fa-bell ag-txt-orange"></i>
+          </div>
         </div>
       </nav>
     </header>
