@@ -10,7 +10,7 @@ header {
 /* ******main****** */
 
 /* *debug* */
-.debug .container {
+.debug .main-container {
   background-color: red;
 }
 
@@ -22,7 +22,7 @@ header {
   background-color: orange;
 }
 
-main .container {
+main .main-container {
   height: calc(100vh - 70px);
 }
 
