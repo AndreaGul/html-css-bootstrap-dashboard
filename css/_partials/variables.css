@@ -13,6 +13,11 @@
   background-color: var(--ag-bg-blue);
 }
 
+.ag-bg-reallylightgrey {
+  --ag-bg-reallylightgrey: #f8f9fa;
+  background-color: var(--ag-bg-reallylightgrey);
+}
+
 .ag-txt-grey {
   --ag-txt-grey: #5b5858;
   color: var(--ag-txt-grey);

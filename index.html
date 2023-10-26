@@ -27,60 +27,61 @@
   </head>
   <body>
     <!-- header -->
-    <header>
-      <nav class="navbar">
-        <div class="container-fluid">
-          <!-- <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-          </div> -->
-          <div>
-            <a class="navbar-brand d-lg-none" href="#">
-              <img
-                src="img/mobile-logo.png"
-                alt="Logo"
-                width="50"
-                height="50"
-              />
-            </a>
-
-            <a class="navbar-brand d-none d-lg-block" href="#">
-              <img src="img/logo.svg" alt="Logo" width="135" height="30" />
-            </a>
-          </div>
-
-          <form class="d-flex flex-grow-1 form-floating" role="search">
-            <input
-              class="form-control me-2 ag-bg-lightgrey"
-              type="search"
-              placeholder="form-search"
-              id="form-search"
+    <header class="d-flex align-items-center ag-bg-reallylightgrey">
+      <div class="container-fluid">
+        <div class="row bg-white align-items-center">
+          <div class="col-auto">
+            <img
+              src="img/mobile-logo.png"
+              alt="Logo"
+              class="d-lg-none img-fluid img-logo"
             />
-            <label for="form-search" class="text-secondary-emphasis fw-semibold"
-              ><i class="fa-solid fa-magnifying-glass"></i>
-              <span class="opacity-75"
-                >Prova a cercare: Lezioni di Laravel
-              </span></label
-            >
-          </form>
+            <img src="img/logo.svg" alt="Logo" class="d-none d-lg-block" />
+          </div>
 
-          <div class="row mx-2 d-none d-lg-flex ag-txt-grey">
-            <div class="col-lg-4">
-              <i class="fa-solid fa-list-ul"></i>
-            </div>
-            <div class="col-lg-4">
-              <i class="fa-solid fa-circle-question"></i>
-            </div>
-            <div class="col-lg-4">
-              <i class="fa-solid fa-ellipsis-vertical"></i>
+          <div class="col">
+            <div class="input-group">
+              <span
+                class="input-group-text border-0 ag-bg-lightgrey"
+                id="basic-addon1"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+              <input
+                type="text"
+                class="form-control ps-0 border-0 ag-bg-lightgrey shadow-none"
+                placeholder="Prova a cercare: Lezioni di Laravel"
+                aria-label="search"
+                aria-describedby="basic-addon1"
+              />
             </div>
           </div>
-          <div class="ms-4 ms-lg-0">
-            <i class="fa-solid fa-bell ag-txt-orange"></i>
+
+          <div class="col-auto">
+            <ul class="list-unstyled d-flex align-items-center m-0 gap-4">
+              <li class="d-none d-lg-block">
+                <a href="" class="text-decoration-none ag-txt-grey"
+                  ><i class="fa-solid fa-list-ul"></i
+                ></a>
+              </li>
+              <li class="d-none d-lg-block">
+                <a href="" class="text-decoration-none ag-txt-grey"
+                  ><i class="fa-solid fa-circle-question"></i
+                ></a>
+              </li>
+              <li class="d-none d-lg-block">
+                <a href="" class="text-decoration-none ag-txt-grey">
+                  <i class="fa-solid fa-ellipsis-vertical"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" class="text-decoration-none ag-txt-grey"
+                  ><i class="fa-solid fa-bell ag-txt-orange"></i
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
+      </div>
     </header>
 
     <!-- /header -->
@@ -90,7 +91,7 @@
       <div class="main-container d-flex">
         <!-- sidebar -->
         <!-- sidebar -->
-        <div class="sidebar ag-bg-blue py-4 px-3">
+        <div class="sidebar ag-bg-blue py-4 px-4">
           <ul class="h-100 list-unstyled d-flex flex-column">
             <li class="justify-content-center my-1">
               <a

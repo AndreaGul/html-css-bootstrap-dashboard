@@ -5,6 +5,10 @@ header {
   height: 70px;
 }
 
+header .img-logo {
+  max-height: 50px;
+}
+
 /* ****** /header****** */
 
 /* ******main****** */
