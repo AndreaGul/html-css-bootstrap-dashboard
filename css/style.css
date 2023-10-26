@@ -10,7 +10,7 @@ header {
 /* ******main****** */
 
 /* *debug* */
-.debug .main-container {
+.debug .container {
   background-color: red;
 }
 
@@ -29,8 +29,6 @@ main .main-container {
 /* * /debug* */
 
 main .sidebar {
-  width: 70px;
-
   height: 100%;
   background-image: url(../img/sidebar-bg.png);
   background-size: auto;
