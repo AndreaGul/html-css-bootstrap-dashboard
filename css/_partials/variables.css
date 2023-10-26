@@ -8,6 +8,11 @@
   background-color: var(--ag-bg-lighterblue);
 }
 
+.ag-bg-btn-blue {
+  --ag-bg-btn-blue: #165bba;
+  background-color: var(--ag-bg-btn-blue);
+}
+
 .ag-bg-blue {
   --ag-bg-blue: #051e34;
   background-color: var(--ag-bg-blue);
