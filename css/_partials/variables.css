@@ -3,6 +3,11 @@
   background-color: var(--ag-bg-lightgrey);
 }
 
+.ag-bg-lighterblue {
+  --ag-bg-lighterblue: #1b72e8;
+  background-color: var(--ag-bg-lighterblue);
+}
+
 .ag-bg-blue {
   --ag-bg-blue: #051e34;
   background-color: var(--ag-bg-blue);
