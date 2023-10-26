@@ -157,18 +157,22 @@
         <div class="page-corp">
           <!-- jumbotron -->
           <div class="jumbotron container-fluid ag-bg-lighterblue text-white">
-            <section class="row">
-              <section
-                class="col-12 col-sm-4 col-lg-2 offset-lg-2 order-sm-1 d-flex align-items-center"
-              >
-                <h6 class="m-0">Nuovo Studente</h6>
-                <button type="button" class="btn btn-outline-light ms-4">
-                  <i class="fa-solid fa-plus"></i>
-                </button>
-              </section>
+            <div class="row py-4 pb-lg-0">
+              <!-- parte con nuovo studente -->
+              <div class="col-12 col-sm-4 col-lg-2 offset-lg-2 order-sm-1 mb-4">
+                <div class="d-flex align-items-center">
+                  <p class="m-0">Nuovo Studente</p>
+                  <button type="button" class="btn btn-outline-light ms-4">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <!-- /parte con nuovo studente -->
 
-              <section class="boolean-apps col-12 col-sm-4">
-                <div class="row">
+              <!-- parte boolean-apps -->
+              <div class="boolean-apps col-12 col-sm-4">
+                <!-- boolean piano blaze -->
+                <div class="row mb-2 mb-lg-3">
                   <h4 class="col-auto m-0">Boolean</h4>
                   <button
                     type="button"
@@ -177,14 +181,18 @@
                     Piano blaze
                   </button>
                 </div>
-                <div class="row align-items-center">
+
+                <!-- /boolean piano blaze -->
+
+                <!-- parte apps -->
+                <div class="row align-items-center container-fluid mb-4">
                   <button
                     type="button"
                     class="btn btn-primary rounded-pill ag-bg-btn-blue py-0 btn-sm col-auto"
                   >
                     3 app
                   </button>
-                  <span class="col-auto"
+                  <span class="col-auto px-1"
                     ><i class="fa-solid fa-angles-right"></i
                   ></span>
                   <button
@@ -194,10 +202,16 @@
                     +
                   </button>
                 </div>
-              </section>
 
+                <!-- /parte apps -->
+              </div>
 
-              <div class="col-12 col-sm-4 col-lg-2 offset-lg-2">a</div>
+              <!-- parte boolean-apps -->
+
+              <div class="col-12 col-sm-4 col-lg-2 offset-lg-2">
+                <p class="mb-1">Studenti online negli ultimi 30 minuti</p>
+                <h4>125</h4>
+              </div>
             </div>
           </div>
           <!-- /jumbotron -->
