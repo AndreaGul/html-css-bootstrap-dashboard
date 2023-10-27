@@ -169,9 +169,108 @@
               <div class="col-12 col-sm-4 col-lg-2 offset-lg-2 order-sm-1 mb-4">
                 <div class="d-flex align-items-center">
                   <p class="m-0">Nuovo Studente</p>
-                  <button type="button" class="btn btn-outline-light ms-4">
-                    <i class="fa-solid fa-plus"></i>
-                  </button>
+
+                  
+                  <button class="btn btn-outline-light ms-4 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+
+                  <div class="offcanvas offcanvas-end offcanvas-width" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body fw-medium">
+                      <div class="row">
+                        <div class="mb-3 row">
+                          <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                            <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="">
+                          </div>
+                          <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Cognome</label>
+                            <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="">
+                          </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                          <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            
+
+                            <div class="input-group mb-3">
+                              <span class="input-group-text" id="basic-addon1">@</span>
+                              <input type="email" class="form-control" placeholder="" aria-label="email" aria-describedby="basic-addon1">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                            <input type="password" class="form-control " id="exampleFormControlInput1" placeholder="">
+                          </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                          <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Indirizzo</label>
+                            <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="">
+
+                            
+                          </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                          <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Citta</label>
+                            <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="">
+                          </div>
+                          <div class="col-4">
+                            <label for="exampleFormControlInput1" class="form-label">Stato</label>
+                            <select class="form-select" aria-label="Default select example">
+                            <option selected>Scegli...</option>
+                            <option value="1">Italia</option>
+                            <option value="2">Spagna</option>
+                            <option value="3">Francia</option>
+                          </select>
+                            
+                          </div>
+                          <div class="col-2">
+                            <label for="exampleFormControlInput1" class="form-label">CAP</label>
+                            <input type="number" class="form-control " id="exampleFormControlInput1" placeholder="">
+                          </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                          <div class="col">
+                            
+                            <label for="formFile" class="form-label">Foto</label>
+                            <input class="form-control" type="file" id="formFile">
+                          </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                          <div class="col">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">
+                                Seleziona per proseguire
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="mb-3 row">
+                          <div class="col">
+                            
+                            <button type="submit" class="btn btn-primary fw-medium">Salva</button>
+
+                            <button type="reset" class="btn btn-warning fw-medium">Svuota</button>
+ 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
                 </div>
               </div>
               <!-- /parte con nuovo studente -->
@@ -201,12 +300,13 @@
                   <span class="col-auto px-1"
                     ><i class="fa-solid fa-angles-right"></i
                   ></span>
-                  <button
-                    type="button"
-                    class="btn btn-primary rounded-pill ag-bg-btn-blue py-0 btn-sm col-auto"
-                  >
+                  
+                  <button class="btn btn-primary rounded-pill ag-bg-btn-blue py-0 btn-sm col-auto " type="button" >
                     +
                   </button>
+                  
+                  
+                  
                 </div>
                 <!-- /parte apps -->
 
@@ -348,7 +448,7 @@
                             type="button"
                             class="btn btn-warning text-white btn-sm py-0 ag-btm-radius"
                           >
-                            process
+                            Process
                           </button>
                         </td>
                         <td class="d-flex justify-content-center">
@@ -418,7 +518,7 @@
                             type="button"
                             class="btn btn-danger text-white btn-sm py-0 ag-btm-radius"
                           >
-                            failed
+                            Failed
                           </button>
                         </td>
                         <td class="d-flex justify-content-center">
@@ -488,7 +588,7 @@
                             type="button"
                             class="btn btn-danger text-white btn-sm py-0 ag-btm-radius"
                           >
-                            failed
+                            Failed
                           </button>
                         </td>
                         <td class="d-flex justify-content-center">

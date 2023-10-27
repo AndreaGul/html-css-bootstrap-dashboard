@@ -52,38 +52,55 @@ main .sidebar li:hover {
 
 /* corpo pagina */
 
+/* grandezza immagine nella tabella prossime classi*/
 table tbody td img {
   width: 30px;
   margin-right: 11px;
 }
 
+/* border radius del bottone nella tabella prossime clssi */
 .ag-btm-radius {
   border-radius: 8px;
 }
 
+/* grandezza delle colonne nella tabella prossime classi */
 .w-standard-small {
   width: 50%;
 }
 
+/* grandezza delle colonne nella tabella prossime classi  */
 .w-standard-big {
   width: 25%;
+}
+
+/* grandezza dell'offcanvas */
+.jumbotron .offcanvas-width {
+  width: 100%;
 }
 
 /* /corpo pagina */
 /* /main */
 
 @media screen and (min-width: 540px) {
+  /* calcolo della grandezza della tabella prossime classi */
   .w-standard-small {
     width: calc(100% / 6);
   }
 
+  /* calcolo della grandezza della tabella prossime classi */
   .w-standard-big {
     width: calc((100% / 6) * 2);
   }
 }
 
 @media screen and (min-width: 960px) {
+  /* grandezza sidebar */
   main .sidebar {
     width: 150px;
+  }
+
+  /* ridimensionamento offcanvas */
+  .jumbotron .offcanvas-width {
+    max-width: 40%;
   }
 }
