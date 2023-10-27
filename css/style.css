@@ -45,7 +45,37 @@ main .page-corp {
 
 /* jumbotron */
 
+/* corpo pagina */
+
+table tbody td img {
+  width: 30px;
+  margin-right: 11px;
+}
+
+.ag-btm-radius {
+  border-radius: 8px;
+}
+
+.w-standard-small {
+  width: 50%;
+}
+
+.w-standard-big {
+  width: 25%;
+}
+
+/* /corpo pagina */
 /* /main */
+
+@media screen and (min-width: 540px) {
+  .w-standard-small {
+    width: calc(100% / 6);
+  }
+
+  .w-standard-big {
+    width: calc((100% / 6) * 2);
+  }
+}
 
 @media screen and (min-width: 960px) {
   main .sidebar {
